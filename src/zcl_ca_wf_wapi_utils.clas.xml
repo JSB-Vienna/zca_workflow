@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_WF_WAPI_UTILS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common WF object: Wrapped WAPI function modules</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_WAPI_UTILS</CLSNAME>
+     <CMPNAME>CHECK_SAP_WAPI_RESULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine WAPI error message and raise exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_WAPI_UTILS</CLSNAME>
+     <CMPNAME>COMPLETE_WORKITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrapped WAPI FM WORKITEM_COMPLETE (saves also container)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_WAPI_UTILS</CLSNAME>
+     <CMPNAME>CREATE_EVENT_EXTENDED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrapped WAPI FM CREATE_EVENT_EXTENDED (for BOR + classes!)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_WAPI_UTILS</CLSNAME>
+     <CMPNAME>GET_WORKITEMS_TO_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrapped WAPI FM SAP_WAPI_WORKITEMS_TO_OBJECT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_WAPI_UTILS</CLSNAME>
+     <CMPNAME>READ_CONTAINER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrapped WAPI FM READ_CONTAINER</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

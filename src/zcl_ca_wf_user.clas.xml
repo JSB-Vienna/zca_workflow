@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BC extended user</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>CHECK_EXISTENCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check existence of object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>CREATE_BO_USER_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create instance of BO USER object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>CREATE_BO_USR01_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create instance of BO USR01 object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>C_MY_TYPEID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type Id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display object in standard transaction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>GET_INSTANCE_FROM_WF_AGENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create instance for an workflow agent (type US only)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MBO_USER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BO type USR01 - SAP user master data / methods</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MBO_USER_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>USER-Instance to execute/determine of methods/attribs.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MBO_USR01</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BO type USR01 - SAP user address data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MBO_USR01_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>USR01-Instance to execute/determine of methods/attribs.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MO_WF_MACROS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common WF object: Execution of workflow macros</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MS_ADDRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAPI reference structure for addresses (contact person)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MS_LPOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common object: Application log (BAL)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MT_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MV_DEF_ATTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Default attribute with prepared object key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MV_PERNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Personnel number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>MV_USER_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>User Name in User Master Record</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>REMOVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remove instance from buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>SET_PERNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set personnel number late</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>TY_S_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Buffered instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_USER</CLSNAME>
+     <CMPNAME>TY_T_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance buffer</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

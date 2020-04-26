@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common WF object: Utilities / Conversions</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>ADD_PARAM_TO_FIORI_URL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add further parameter to current URL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>ASSEMBLE_BASE_URL_LAUNCHPAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assemble base URL for access to Fiori Launchpad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>ASSEMBLE_URL_FIORI_FOR_WI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assemble URL for Fiori inbox displaying all work items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>ASSEMBLE_URL_FIORI_INBOX_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assemble URL for Fiori inbox displaying all work items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>CHECK_BAPI_RETURN_FOR_ERRORS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check BAPI return parameter for errors</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>CONVERT_ACTOR_2_USER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert WF actor into user Id (cut of org.type)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>CONVERT_USER_2_ACTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert user Id into actor (add US)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>CREATE_BOR_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create BOR Instance from key values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>C_LINK_FIORI_SPEC_WI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter to call specific workitem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>FIND_ACTIVE_WI_BY_WF_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Find active workitem (single task) to a workflow id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>GET_ACTIVE_WI_N_CONTAINER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get currently active workitem and its container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>MV_URL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Description</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_WF_UTILS</CLSNAME>
+     <CMPNAME>WAIT_N_SECONDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wait some seonds for something, e. g for posting completed</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
